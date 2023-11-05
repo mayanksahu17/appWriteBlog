@@ -26,7 +26,7 @@ function App() {
     <div className='min-h-screen flex flex-wrap content-between bg-gray-6000'>
       <div className='w-full block'>
         <Header />
-        <main>
+        <main className='py-2 px-2'>
        <Outlet />
         </main>
         <Footer />
